@@ -40,9 +40,6 @@ npm run install-global
 
 ### Basic Usage
 ```bash
-# Search for files (uses AI if API key is available, otherwise falls back to local search)
-node index.js "marksheet" -p test-files
-
 # Force local search only (no AI)
 node index.js "marksheet" -p test-files --no-ai
 
@@ -258,32 +255,7 @@ node index.js "todo list" -p test-files
 | AI-Powered | 0.6-22 seconds | High (95%+ relevance) | Yes |
 | Local | ~13ms | Medium (20-25% relevance) | No |
 
-## Testing
 
-The project includes comprehensive test files and scripts:
-
-### Run Test Suite
-```bash
-# Create test files
-bash setup_tests.sh
-
-# Run interactive tests
-bash run_tests.sh
-```
-
-### Manual Testing Examples
-```bash
-# Test AI mode
-node index.js "marksheet" -p test-files --api-key YOUR_KEY
-
-# Test local mode
-node index.js "marksheet" -p test-files --no-ai
-
-# Test with different queries
-node index.js "database configuration" -p test-files --no-ai
-node index.js "meeting notes" -p test-files --no-ai
-node index.js "error logs" -p test-files --no-ai
-```
 
 ## Project Structure
 
@@ -319,26 +291,7 @@ findoc-cli/
 - Two API calls per search: query analysis + file scoring
 - Automatic fallback to local mode if API fails
 
-## Future Enhancements
 
-- [ ] Support for binary files (PDF, Word, etc.)
-- [ ] Caching for improved performance
-- [ ] Fuzzy string matching improvements
-- [ ] File content indexing
-- [ ] Multiple AI provider support
-- [ ] Configuration file for custom settings
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-MIT License - see LICENSE file for details
 
 ## Troubleshooting
 
@@ -361,6 +314,3 @@ MIT License - see LICENSE file for details
 - Use `--no-ai` for faster, basic searches
 - Consider limiting search scope with `--path`
 
-## Support
-
-For issues, questions, or contributions, please open an issue on the project repository.
