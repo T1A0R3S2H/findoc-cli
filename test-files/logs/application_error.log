@@ -1,0 +1,6 @@
+2025-01-10 10:15:23 ERROR [DatabaseManager] Connection timeout to database server
+2025-01-10 10:15:24 WARN [AuthService] Failed login attempt for user: admin
+2025-01-10 10:18:45 ERROR [PaymentProcessor] Credit card validation failed
+2025-01-10 10:20:12 INFO [UserManager] New user registered: user123
+2025-01-10 10:22:33 ERROR [EmailService] SMTP server unreachable
+2025-01-10 10:25:11 WARN [CacheManager] Redis connection unstable

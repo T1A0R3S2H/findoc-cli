@@ -1,0 +1,16 @@
+Student Grade Report - Fall 2024
+================================
+Student Name: John Doe
+Student ID: 12345
+
+Course Grades:
+- Mathematics: A (95/100)
+- Physics: B+ (87/100) 
+- Chemistry: A- (92/100)
+- English: B (83/100)
+
+Overall GPA: 3.7
+Total Credits: 16
+
+Semester: Fall 2024
+Date Generated: December 15, 2024

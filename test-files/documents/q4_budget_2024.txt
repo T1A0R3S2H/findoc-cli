@@ -1,0 +1,21 @@
+Q4 2024 Budget Report
+====================
+
+Revenue:
+- Product Sales: $125,000
+- Service Revenue: $45,000
+- Total Revenue: $170,000
+
+Expenses:
+- Salaries: $80,000
+- Office Rent: $12,000
+- Marketing: $15,000
+- Software Licenses: $8,000
+- Total Expenses: $115,000
+
+Net Profit: $55,000
+Profit Margin: 32.4%
+
+Budget vs Actual:
+- Revenue Target: $160,000 (Exceeded by 6.25%)
+- Expense Budget: $120,000 (Under by 4.17%)

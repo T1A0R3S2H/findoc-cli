@@ -1,0 +1,21 @@
+INVOICE #INV-2024-120
+=====================
+
+Bill To:
+ABC Company
+123 Business Street
+New York, NY 10001
+
+Invoice Date: December 15, 2024
+Due Date: January 15, 2025
+
+Services:
+- Web Development (40 hours) @ $100/hr: $4,000
+- Database Setup (8 hours) @ $120/hr: $960
+- Testing & QA (16 hours) @ $80/hr: $1,280
+
+Subtotal: $6,240
+Tax (8.25%): $514.80
+Total Amount: $6,754.80
+
+Payment Terms: Net 30 days
